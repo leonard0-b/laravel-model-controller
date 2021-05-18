@@ -2,7 +2,7 @@
 
 
 @section('title')
-Magnifici Filmoni
+MAGNIFICI FILMONI
 @endsection
 
 @section("content")
