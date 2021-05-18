@@ -39,6 +39,7 @@ header {
     background-color: rgba(255, 99, 139, 0.2);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     .card {
+        position: relative;
         padding: 10px;
         width: calc(100% / 5 - 30px);
         margin: 30px 15px;
@@ -49,6 +50,27 @@ header {
         color: #470c5a;
         div {
             margin: 5px 0;
+        &.vote {
+            position: absolute;
+            bottom: 0;
+            right: 10px
+        }
+        &.date {
+            position: absolute;
+            bottom: 0;
+            left: 10px;
+        }
+        &.nationality {
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+            font-size: 12px;
+            font-style: italic;
+        }
+        &.original_title {
+            font-size: 13px;
+            font-style: oblique;
+        }
         }
     }
 }
