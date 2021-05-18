@@ -6,8 +6,25 @@
 }
 
 body {
+    overflow: hidden;
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
     height: 100vh;
+    width: 100vw;
     align-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    h1 {
+        padding-top: 50px;
+        color: #470c5a;
+    }
 }
 
 .flex {
@@ -15,14 +32,23 @@ body {
 }
 
 .container {
+    margin-top: -70px;
     width: 60%;
-    margin: 0 auto;
-    border: 1px solid red;
     flex-wrap: wrap;
+    border-radius: 8px;
+    background-color: rgba(255, 99, 139, 0.2);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     .card {
+        padding: 10px;
         width: calc(100% / 5 - 30px);
         margin: 30px 15px;
-        border: 1px solid blue;
         height: 200px;
+        background-color: #a567b8;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        border-radius: 8px;
+        color: #470c5a;
+        div {
+            margin: 5px 0;
+        }
     }
 }

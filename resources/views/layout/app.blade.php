@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>@yield("title")</title>
 </head>
-<body class="flex">
-    <main>
+<body>
+    <header>
+        @include("portions.header")
+    </header>
+
+    <main class="flex">
         @yield("content")
     </main>
 </body>
