@@ -4,4 +4,4 @@ Importate nel vostro database la tabella movies in allegato e inserite le vostre
 Create un model Movie e un controller che gestirà la rotta /. 
 All'interno della funzione index() del controller, recuperate tutti i film dal database e passateli alla view, che quindi li visualizzerà a schermo, tramite delle card.
 
-![](screenshot.jpg);
+![](screenshot.jpg)
