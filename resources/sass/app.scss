@@ -53,7 +53,8 @@ header {
         &.vote {
             position: absolute;
             bottom: 0;
-            right: 10px
+            right: 10px;
+            font-weight: 700;
         }
         &.date {
             position: absolute;
@@ -70,6 +71,9 @@ header {
         &.original_title {
             font-size: 13px;
             font-style: oblique;
+        }
+        &.title {
+            font-weight: 700;
         }
         }
     }

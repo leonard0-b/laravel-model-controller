@@ -63,6 +63,7 @@ header h1 {
   position: absolute;
   bottom: 0;
   right: 10px;
+  font-weight: 700;
 }
 
 .container .card div.date {
@@ -82,5 +83,9 @@ header h1 {
 .container .card div.original_title {
   font-size: 13px;
   font-style: oblique;
+}
+
+.container .card div.title {
+  font-weight: 700;
 }
 
